@@ -1,0 +1,24 @@
+recipe = {
+  id : 0,
+  name : 'Fried Eggs',
+  ingredients : [
+    {name : 'eggs', qty : 2, measurement : 'whole'},
+    {name : 'butter', qty : 1, measurement : 'tbsp'}
+  ],
+  instructions : [
+    'Pre-heat pan on medium heat.',
+    'Add butter, spread in pan.',
+    'Crack egg(s) and add to butter after allowing pan to heat.',
+    'Let cook 2-3 minutes. Flip.',
+    'Let cook another 2-3 minutes or until desired consistency is met.'
+  ],
+  prep_time : '1 min.',
+  cook_time : '5-10 min.',
+  tags: ['breakfast', 'fast', 'eggs', 'protein']
+}
+
+family_member = {
+  id : 0,
+  name : 'Billy Bomber',
+  likes: ['breakfast', 'cheese', 'Mexican']
+}
