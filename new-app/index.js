@@ -19,6 +19,21 @@ const db = massive.connect({ connectionString : cnx},
   }
 )
 
+//
+// Family end points
+app.post('/api/addfamily', function(req, res) { })
+app.put('/api/updatefamily/:id', function(req, res) { })
+app.get('/api/getfamily/:id', function(req, res) { })
+app.delete('/api/deletefamily/:id', function(req, res) { })
+
+//
+// Recipe endpoints
+app.post('/api/addrecipe', function(req, res) { })
+app.put('/api/updaterecipe/:id', function(req, res) { })
+app.get('/api/getrecipe/:id', function(req, res) { })
+app.get('/api/getallrecipes', function(req, res) { })
+app.delete('/api/deleterecipe/:id', function(req, res) { })
+
 app.listen(port, function() {
   console.log('Alive and kicking on port ', port)
 })
